@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrera de coches</title>
+    <style>
+    .carretera {
+        border: 2px solid white;
+        padding: 10px;
+        margin-bottom: 2em;
+        background-color: black;
+    }
+    .carril {
+        border-bottom: 2px solid  blueviolet;
+        padding: 3px;
+    }
+    .coche {
+        margin-left:0px;
+        margin-top:4px;
+	    width:200px;
+	    height:200px;
+    }
+    </style>
+</head>
+<body>
+    <h1>Carrera de coches</h1>
+    <div class="body">
+       <div class=coche>
+            <img class=coche id="coche1" src="img/car1.png" alt="Este es mi coche">
+            <img class=coche id="coche2" src="img/car2.png" alt="">	
+            <img class=coche id="coche3" src="img/car3.png" alt="">
+            <img class=coche id="coche4" src="img/car4.png" alt="">
+            <img class=coche id="coche5" src="img/car5.png" alt="">
+            <img class=coche id="coche6" src="img/car6.png" alt="">
+            <img class=coche id="coche7" src="img/car7.png" alt="">
+            <img class=coche id="coche8" src="img/car8.png" alt="">
+            <img class=coche id="coche9" src="img/car9.png" alt="">	
+        </div>	
+        
+    </div>
+
+    <input type="button" id="comenzar" class="boton1" value="¡Comenzar!">
+    <input type="button" id="reiniciar" class="boton2" value="Reiniciar">
+    
+    <script>
+        coches = ["car1","car2","car3","car4","car5","car6","car7","car8","car9"]
+	
+	    var car1 = document.getElementById('car1').animate([
+		// fotogramas clave
+ 		{ transform: 'translateY(0px)' },
+  		{ transform: 'translateY(50px)' }
+	    ])
+
+    </script>
+    
+</body>
+</html>
