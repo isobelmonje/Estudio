@@ -1,6 +1,6 @@
 import './App.css';
 import SofiaEnterpriseLogo from './imagenes/sofiaenterprise-logo.png';
-
+import Boton from './componentes/Boton';
 function App() {
   return (
     <div className='App'>
@@ -12,7 +12,9 @@ function App() {
 
       </div>
       <div className='contenedor-calculadora'>
-        <div className='fila'></div>
+        <div className='fila'>
+          <Boton>1</Boton>
+        </div>
         <div className='fila'></div>
         <div className='fila'></div>
         <div className='fila'></div>
