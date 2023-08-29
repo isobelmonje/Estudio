@@ -1,6 +1,8 @@
 .boton-contenedor {
     height: 83px;
     display: flex;
+    /*indica cuanto se puede expandir o encoger un componente en relacion a los otros componentes*/
+    flex: 1 1;
     justify-content: center;
     align-items: center;
     font-weight: bold;
@@ -14,4 +16,14 @@
     cursor: pointer;
     /*permite que el texto del botón no se pueda seleccionar*/
     user-select: none;
+}
+.boton-contenedor:hover {
+    background-color: #5a01a7;
+}
+
+.operador {
+    background-color: #00471b;
+}
+.operador:hover {
+    background-color: #ff6600;
 }
