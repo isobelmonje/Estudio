@@ -1,4 +1,17 @@
 .boton-contenedor {
     height: 83px;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 38px;
+    background-color: #1b1b32;
+    color: white;
+    border-radius: 25px;
+    border: 2px solid white;
+    margin: 4px;
+    /*el cursor se convierte en una mano*/
+    cursor: pointer;
+    /*permite que el texto del botón no se pueda seleccionar*/
+    user-select: none;
 }
