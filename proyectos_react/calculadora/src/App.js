@@ -2,6 +2,7 @@ import './App.css';
 import SofiaEnterpriseLogo from './imagenes/sofiaenterprise-logo.png';
 import Boton from './componentes/Boton';
 import Pantalla from './componentes/Pantalla';
+import BotonClear from './componentes/BotonClear';
 
 function App() {
   return (
